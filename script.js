@@ -1,5 +1,4 @@
 function firstWord(s) {
-	
 	// let x=s.trim();
 	// let str="";
 	// for(let i=0; i<x.length; i++){
@@ -10,7 +9,8 @@ function firstWord(s) {
 	// 		str+=x[i];
 	// 	}
 	// }
-	let x=s.split(" ");
+	let y=s.trim();
+	let x=y.split(" ");
 	return x[0];
 }
 const s = prompt("Enter String:");
